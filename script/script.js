@@ -6,3 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
         sidebar.classList.toggle('show');
     });
 });
+
+
+// type write effect on the h1 ["my", "name"]
+
+

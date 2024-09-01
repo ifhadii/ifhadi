@@ -1,5 +1,6 @@
 :root { 
-    --text-color-for-sidebar: #0c0f14;
+    /* --text-color-for-sidebar: #152137; */
+    --text-color-for-sidebar: #25395d;
     --background-color-main: #010409;
 }
 
@@ -127,6 +128,7 @@ html {
     font-size: 2rem;
 }
 
+
 .cv-education {
     font-size: 2rem;
 }
@@ -137,4 +139,48 @@ html {
 
 strong {
     font-weight: 100;
+}
+
+.core-skills {
+    font-size: 2rem;
+}
+
+
+.core-skills {
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: var(--text-color-for-sidebar);
+}
+
+.core-skills-p {
+    font-size: 2rem;
+}
+
+/* styles.css */
+.i-want-to-be {
+    font-size: 2em;
+    text-align: center;
+}
+
+.i-want-to-be .fa-flask {
+    display: inline-block;
+    animation: pulse 1.5s infinite;
+}
+
+/* Keyframes for pulsing animation */
+@keyframes pulse {
+    0% {
+        /* transform: scale(1); */
+        opacity: 1;
+    }
+    60% {
+        /* transform: scale(1.2); */
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
