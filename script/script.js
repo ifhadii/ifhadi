@@ -8,6 +8,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// type write effect on the h1 ["my", "name"]
 
 
